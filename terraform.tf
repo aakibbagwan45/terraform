@@ -3,6 +3,7 @@ terraform {
   bucket   =  "terraform-jenkins-aakibbagwanit"
   key      =  "aws/terraform.tfstate"
   region   =  "ap-south-1"
-  shared_credentials_files = ["/home/jenkins/credentials"]
+  access_key = "AWS_ACCESS_KEY_ID"
+  secret_key = "AWS_SECRET_ACCESS_KEY"
   }
 }
