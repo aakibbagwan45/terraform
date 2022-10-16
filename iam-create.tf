@@ -1,5 +1,5 @@
 resource "aws_iam_user" "user" {
-  name = "rahul"
+  name = "${input}"
   path = "/system/"
 
   tags = {
