@@ -3,5 +3,5 @@ variable "region" {
 }
 variable "name" {
 	type = string
-        default = ${name}
+        default = "${name}"
 }
