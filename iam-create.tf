@@ -1,5 +1,5 @@
 resource "aws_iam_user" "user" {
-  name = "name"
+  name = var.name
   path = "/system/"
 
   tags = {
