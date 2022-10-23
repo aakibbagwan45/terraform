@@ -1,4 +1,4 @@
-resource "aws_iam_user" "var.user" {
+resource "aws_iam_user" "var.user.id" {
   name = var.name
   path = "/system/"
 
