@@ -1,5 +1,5 @@
 resource "aws_iam_user" "user" {
-  name = "TF_VAR_name"
+  name = ""
   path = "/system/"
 
   tags = {
