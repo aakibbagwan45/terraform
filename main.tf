@@ -15,3 +15,7 @@ resource "aws_autoscaling_group" "perforce-auto" {
       version = "$$Latest"
     }
 }
+
+variable "name_prifix" {
+        type = string
+}
