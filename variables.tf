@@ -4,6 +4,6 @@ variable "region" {
 variable "name" {
 	type = string
 }
-variable "servername" {
+variable "name_prifix" {
 	type = string
 }
