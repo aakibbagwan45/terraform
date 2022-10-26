@@ -4,6 +4,3 @@ variable "region" {
 variable "name" {
 	type = string
 }
-variable "name_prifix" {
-	type = string
-}
