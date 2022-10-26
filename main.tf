@@ -1,5 +1,5 @@
 resource "aws_launch_template" "perforce" {
-    name_prefix   = "foobar"
+    name_prefix   = var.servername
     image_id      = "ami-062df10d14676e201"
     instance_type = "t2.micro"
 }

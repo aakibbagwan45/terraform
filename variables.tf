@@ -4,3 +4,6 @@ variable "region" {
 variable "name" {
 	type = string
 }
+variable "servername" {
+	type = string
+}
